@@ -80,35 +80,6 @@ window#waybar {
 #workspaces button.focused { background-color: #414b50; }
 #workspaces button.visible { background-color: #414b50; }
 
-#cpu {
-  background-color: #384b55;
-  margin: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#memory {
-  background-color: #3c4841;
-  margin: 4px;
-  padding-right: 5px;
-  padding-left: 5px;
-}
-
-#disk {
-  background-color: #4c3743;
-  margin: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#temperature {
-  background-color: #45443c;
-  margin: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-#temperature.critical { background-color: #4c3743; }
-
 #mpd {
   background-color: #45443c;
   margin: 4px;
