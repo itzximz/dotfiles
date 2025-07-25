@@ -109,4 +109,19 @@ window#waybar {
 }
 #temperature.critical { background-color: #4c3743; }
 
+#mpd {
+  background-color: #45443c;
+  margin: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#custom-notify {
+  background-color: #384b55;
+  margin: 4px;
+  padding-left: 7px;
+  padding-right: 3px;
+}
+  
+
 /* END OF THIS SHIT */

@@ -1,0 +1,17 @@
+font=Hack 9
+background-color=#272e33
+output=eDP-1
+margin=5
+default-timeout=5000
+padding=5
+border-size=0
+
+[mode=do-not-disturb]
+invisible=1
+
+[urgency=normal]
+background-color=#2e383c
+
+[urgency=high]
+default-timeout=0
+background-color=#374145
