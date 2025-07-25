@@ -1,0 +1,112 @@
+* {
+  border: none;
+  border-radius: 0;
+  color: #d3c6aa;
+  font-family: "Hack Nerd Font";
+  min-height: 0;
+  min-width: 0;
+  font-size: 11px;
+}
+
+window#waybar {
+  background-color: #272e33;
+}
+
+#tray {
+  background-color: #3c4841;
+  margin: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#clock {
+  background-color: #384b55;
+  margin: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#battery {
+  background-color: #4f5b58;
+  margin: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#battery.critical { background-color: #4c3743; }
+
+#wireplumber {
+  background-color: #495159;
+  margin: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#network {
+  background-color: #374145;
+  margin: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#power-profiles-daemon {
+  margin: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#power-profiles-daemon.performance { background-color: #4c3743; }
+#power-profiles-daemon.balanced { background-color: #3c4841; }
+#power-profiles-daemon.power-saver { background-color: #384b55;}
+
+#bluetooth {
+  background-color: #384b55;
+  margin: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#bluetooth.disabled { background-color: #495156; }
+
+#workspaces {
+  background-color: #2e383c;
+  margin: 4px;
+}
+
+#workspaces button:hover {
+  background-color: #414b50;
+}
+#workspaces button.urgent { background-color: #495156; }
+#workspaces button.focused { background-color: #414b50; }
+#workspaces button.visible { background-color: #414b50; }
+
+#cpu {
+  background-color: #384b55;
+  margin: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#memory {
+  background-color: #3c4841;
+  margin: 4px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+#disk {
+  background-color: #4c3743;
+  margin: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#temperature {
+  background-color: #45443c;
+  margin: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#temperature.critical { background-color: #4c3743; }
+
+/* END OF THIS SHIT */

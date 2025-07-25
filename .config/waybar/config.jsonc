@@ -1,0 +1,117 @@
+{
+  "height": 30,
+  "position": "bottom",
+  "spacing": 4,
+
+  "modules-left": [
+    "cpu",
+    "memory",
+    "disk",
+    "temperature"
+  ],
+
+  "modules-center": [
+    "sway/workspaces"
+  ],
+
+  "modules-right": [
+    "mpd",
+    "bluetooth",
+    "network",
+    "wireplumber",
+    "power-profiles-daemon",
+    "battery",
+    "clock",
+    "tray"
+  ],
+
+  "tray": {
+    "spacing": 5
+  },
+
+  "clock": {
+    "format": " {:%R}",
+    "format-alt": "󰃭 {:%F}",
+    "tooltip-format": "󰃭 {:%F}"
+  },
+
+  "battery": {
+    "states": {
+      "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-icons": ["", "", "", "", ""]
+  },
+
+  "power-profiles-daemon": {
+    "tooltip-format": "Power profile: {profile}",
+    "tooltip": "true",
+    "format": "{icon} {profile}",
+    "format-icons": {
+      "performance": "󱐋",
+      "balanced": "󰗑",
+      "power-saver": "󰌪"
+    }
+  },
+
+  "wireplumber": {
+    "format-muted": " {volume}%",
+    "format": "{icon} {volume}%",
+    "format-icons": ["", "", ""],
+    "max-volume": 100,
+    "scroll-step": 1
+  },
+
+  "network": {
+    "format": "{ipaddr}",
+    "format-wifi": "{icon} {essid} ({signalStrength}%)",
+    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+    "format-ethernet": "󰈁 {ipaddr}",
+    "format-disconected": "󰈂/󰤭"
+  },
+
+  "bluetooth": {
+    "format": "󰂯 {status}",
+    "format-disabled": "󰂲",
+    "format-connected-battery": "󰂱 connected ({device_battery_percentage}%)",
+    "format-connected": "󰂱 {num_connections} connected",
+    "tooltip-format": "󰂯 {status}"
+  },
+
+  "sway/workspaces": {
+    "persistent-workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": []
+    },
+    "format": "{value}"
+  },
+
+  "cpu": {
+    "format": " {}%"
+  },
+
+  "memory": {
+    "format": " {}%"
+  },
+
+  "disk": {
+    "path": "/",
+    "format": "{specific_used:0.1f} GiB / {specific_total:0.1f} GiB",
+    "unit": "GiB"
+  },
+
+  "temperature": {
+    "format": "{temperatureC}°C",
+    "critical-threshold": 95
+  }
+
+}
+
+/* END OF THIS SHIT */
