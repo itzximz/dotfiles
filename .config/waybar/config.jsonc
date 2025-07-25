@@ -37,7 +37,9 @@
       "critical": 15
     },
     "format": "{icon} {capacity}%",
-    "format-icons": ["", "", "", "", ""]
+    "format-icons": ["", "", "", "", ""],
+    "format-charging": "󰂄 {capacity}%",
+    "interval": 1
   },
 
   "power-profiles-daemon": {
